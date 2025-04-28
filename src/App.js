@@ -8,6 +8,8 @@ import SubmitForm from './components/SubmitForm.js';
 import HoverBox from './components/Hovering.js';
 import Preferences from './components/Checking.js';
 import WindowWidth from './components/Effect_react.js';
+import CustomInput from './components/CustomInput.js';
+import CustomInput_comp from './components/CustomInput_comp.js';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <header className="App-header">
         <PersonalMessage/>
         <Hooks/>
+        <CustomInput/>
+        <CustomInput_comp/>
         <NameForm/>
         <SubmitForm/>
         <HoverBox/>
